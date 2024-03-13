@@ -14,33 +14,25 @@ _Create a site or blog from your GitHub repositories with GitHub Pages._
 </header>
 
 <!--
-  <<< Author notes: Step 2 >>>
+  <<< Author notes: Step 3 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+  Historic note: previous version checked the homepage content was not empty.
 -->
 
-## Step 2: Configure your site
+## Step 3: Customize your homepage
 
-_You turned on GitHub Pages! :tada:_
+_Nice work setting the theme! :sparkles:_
 
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
+You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
 
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
+### :keyboard: Activity: Create your homepage
 
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
-
-### :keyboard: Activity: Configure your site
-
-1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. Browse to the `index.md` file in the `my-pages` branch.
 1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-   ```yml
-   theme: minima
-   ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Type the content you want on your homepage. You can use Markdown formatting on this page.
+1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
+1. Commit your changes to the `my-pages` branch.
 1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
